@@ -1,0 +1,188 @@
+.menu-first {
+    background-color: rgb(233, 213, 213);
+    width: 100%;
+    display: flex;
+    color: white;
+    text-align: center;
+    
+}
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.menu-first .option-first {
+    justify-content: center;
+    border-radius: 4px;
+}
+.menu-second{
+    position: relative;
+}
+.option-second{
+    display: none;
+    position: absolute;
+   
+}
+
+.option-first {
+    padding: 30px 20px;
+    font-size: 30px;
+    width: 100%;
+    size: 15px;
+    border: 1px solid;
+}
+
+.option-first .a {
+    color: rgb(152, 76, 239);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+    background-color: white;
+}
+
+.search {
+    height: 99px;
+    size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-product .product-top {
+    position: relative;
+}
+
+.page-product .product-sale {
+    position: absolute;
+    background-color: red;
+    padding: 6px 10px;
+    border-radius: 4px;
+    top: 0rem;
+    left: 0rem;
+}
+
+.page-product .product-item {
+    position: relative;
+}
+
+.page-product .product-mid {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: none;
+}
+
+.page-product .product-mid button {
+    padding: 1rem;
+}
+
+.page-product .product-bot {
+    text-align: center;
+}
+
+.page-product .product-item:hover .product-mid {
+    display: block;
+}
+
+.page-product .product-img :hover {
+    box-shadow: -1px 1px 5px 17px rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: -1px 1px 5px 17px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: -1px 1px 5px 17px rgba(0, 0, 0, 0.27);
+}
+
+.list-product {
+    width: 60%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+@keyframes zoom {
+    from {
+        scale: 1;
+    }
+
+    to {
+        scale: 1,5;
+    }
+}
+
+.page-product .product-top .product-img:hover {
+    scale: 1.5;
+    animation-name: zoom;
+    animation-duration: 1s;
+}
+
+.page-product .product-top .product-img {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 400px) {
+    .page-product .list-product .product-item.w-25 {
+        width: 50%;
+    }
+}
+
+.new-1 {
+    width: 50%;
+}
+
+.p-1 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+    .first-new .new-1 {
+        width: 50%;
+    }
+
+    .first-new .p-1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .first-new .new-1 {
+        width: 55%;
+    }
+
+    .first-new .p-1 {
+        width: 100%;
+    }
+}
+.first-new .new-1:hover {
+    scale: 1.5;
+    animation-name: zoom;
+    animation-duration: 1s;
+}
+.first-new .new-1{
+    overflow: hidden;
+}
